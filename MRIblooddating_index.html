@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+
+
+
+
+
+<head>
+
+
+<title>Pediatric stroke</title>
+<link href = "MRIblooddating_style.css" rel = "stylesheet">
+<link href = "https://fonts.googleapis.com/css?family=Open+Sans" rel = "stylesheet">
+<script src = "MRIblooddating_main.js"></script>
+
+
+</head>
+
+
+
+
+<body>
+
+
+<span style="font-size: 50px"><h1 style="text-align: center; color: #ff0000">Date blood in brain MRI</h1></span>
+
+
+
+<br>
+<br>
+<br>
+<br>
+
+
+<form id="question1" name="question1">
+<p><b>Q1. Drag and drop to match the findings in T1 and T2 with the time of the hemorrhage. Also, drag and drop the underlying forms of hemoglobin causing these findings:</b>
+<br>
+<br>
+
+<div id="drop1" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+<p>&emsp;<b>Hyperacute (0 to 6 hours)</b></p>
+<br>
+<br>
+<div id="drop2" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+<p>&emsp;<b>Acute (1 to 3 days)</b></p>
+<br>
+<br>
+<div id="drop3" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+<p>&emsp;<b>Early subacute (3 to 7 days)</b></p>
+<br>
+<br>
+<div id="drop4" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+<p>&emsp;<b>Late subacute (7 days to 30 days)</b></p>
+<br>
+<br>
+<div id="drop5" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+<p>&emsp;<b>Chronic (>14 days)</b></p>
+
+<br>
+<br>
+
+<span id="drag1" data-div="drop2" draggable="true" ondragstart="drag(event)"><b>&emsp;intracellular deoxyhemoglobin&emsp;</b></span></div>
+<br><br>
+<span id="drag2" data-div="drop2" draggable="true" ondragstart="drag(event)"><b>&emsp;T1 gray (isointense) & T2 dark gray (hypointense)&emsp;</b></span></div>
+<span id="drag3" data-div="drop4" draggable="true" ondragstart="drag(event)"><b>&emsp;T1 white (hyperintense) & T2 white (hyperintense)&emsp;</b></span></div>
+<br><br>
+<span id="drag4" data-div="drop1" draggable="true" ondragstart="drag(event)"><b>&emsp;T1 gray (isointense) & T2 light gray (isointense to mildly hyperintense)&emsp;</b></span></div>
+<span id="drag5" data-div="drop5" draggable="true" ondragstart="drag(event)"><b>&emsp;hemosiderin&emsp;</b></span></div>
+<br><br>
+<span id="drag6" data-div="drop3" draggable="true" ondragstart="drag(event)"><b>&emsp;intracellular methemoglobin&emsp;</b></span></div>
+<span id="drag7" data-div="drop3" draggable="true" ondragstart="drag(event)"><b>&emsp;T1 white (hyperintense) & T2 dark gray (hypointense)&emsp;</b></span></div>
+<br><br>
+<span id="drag8" data-div="drop1" draggable="true" ondragstart="drag(event)"><b>&emsp;intracellular oxyhemoglobin&emsp;</b></span></div>
+<span id="drag9" data-div="drop5" draggable="true" ondragstart="drag(event)"><b>&emsp;T1 dark gray (hypointense) & dark gray (hypointense)&emsp;</b></span></div>
+<br><br>
+<span id="drag10" data-div="drop4" draggable="true" ondragstart="drag(event)"><b>&emsp;extracellular methemoglobin&emsp;</b></span></div>
+
+
+<br>
+<br>
+<input id="buttonQ1" type="button" value="Show me all the answers, please!" onclick="checkQ1();">
+</form>
+
+<div id="after_submitQ1">
+<p id="answerQ1"></p>
+<br>
+<figure>
+<img id="answerQ1_picture">
+</figure>
+<br clear="all" />
+<br>
+<p id = "afterQ1_picture"></p>
+<br>
+<figure>
+<img id="answerQ1_picture2">
+</figure>
+<br clear="all" />
+<br>
+<p id = "afterQ1_picture2"></p>
+<br>
+<figure>
+<img id="answerQ1_picture3">
+</figure>
+<br clear="all" />
+<br>
+<p id = "afterQ1_picture3"></p>
+<br>
+<figure>
+<img id="answerQ1_picture4">
+</figure>
+<br clear="all" />
+<br>
+<p id = "afterQ1_picture4"></p>
+</div>
+<br clear="all" />
+
+
+
+
+
+
+<br>
+<br>
+<br>
+<br>
+
+
+</body>
+
+</html>
