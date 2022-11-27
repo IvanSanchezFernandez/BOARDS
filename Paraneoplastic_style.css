@@ -1,0 +1,78 @@
+body {
+	font-family: 'Open Sans', sans-serif;
+}
+
+
+
+
+
+
+
+
+#question1 {
+	margin-left: 10px;
+	margin-right: 10px;
+	background: #ECEFF1;
+	padding: 10px 10px 10px 10px;
+	width: 975px;
+	border-radius: 20px;
+	float: left;
+}
+
+
+#buttonQ1 {
+	background: green;
+	border: black;
+	border-radius: 5px;
+	padding: 10px;
+	color: white;
+	font-size: 16px;
+	transition-duration: 0.25s;
+	margin-top: 15px;
+}
+
+
+#buttonQ1:hover {
+	background: white;
+	border: 1px solid green;
+	color: black;
+	cursor: pointer;
+}
+
+
+#after_submitQ1 {
+	visibility: hidden;
+	padding: 10px 10px 10px 10px;
+	width: 425px;
+	heigth: 900px;
+	border-radius: 20px;
+	float: left;
+	margin-left: 20px;
+	font-size: 20px;
+}
+
+
+#drop1, #drop2, #drop3, #drop4, #drop5, #drop6, #drop7, #drop8, #drop9, #drop10 {
+  float: left;
+  width: 700px;
+  height: 50px;
+  margin-left: 10px;
+  padding: 10px;
+  border: solid black;
+}
+
+
+#drag1, #drag2, #drag3, #drag4, #drag5, #drag6, #drag7, #drag8, #drag9, #drag10, #drag11, #drag12, #drag13, #drag14, #drag15, #drag16, #drag17, #drag18, #drag19, #drag20 {
+  border: solid black;
+  border-radius: 20px;
+  background-color: white;
+}
+
+
+
+
+
+
+
+
+
