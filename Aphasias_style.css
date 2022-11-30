@@ -1,0 +1,296 @@
+body {
+	font-family: 'Open Sans', sans-serif;
+}
+
+
+
+
+
+
+
+
+#question1 {
+	margin-left: 10px;
+	margin-right: 10px;
+	background-image: url("Aphasias_img/Brain.png");
+	background-position: center center;
+	background-color: #ECEFF1;
+	background-size: 100% 70%;
+	background-repeat: no-repeat;
+	padding: 10px 10px 10px 10px;
+	width: 975px;
+	border-radius: 20px;
+	float: left;
+}
+
+
+#buttonQ1 {
+	background: green;
+	border: black;
+	border-radius: 5px;
+	padding: 10px;
+	color: white;
+	font-size: 16px;
+	transition-duration: 0.25s;
+	margin-top: 15px;
+}
+
+
+#buttonQ1:hover {
+	background: white;
+	border: 1px solid green;
+	color: black;
+	cursor: pointer;
+}
+
+
+#after_submitQ1 {
+	visibility: hidden;
+	padding: 10px 10px 10px 10px;
+	width: 425px;
+	heigth: 900px;
+	border-radius: 20px;
+	float: left;
+	margin-left: 20px;
+	font-size: 20px;
+}
+
+
+#answerQ1_picture {
+	width: 375px;
+	heigth: 300px;
+	float: left;
+	border-radius: 20px;
+}
+
+
+#drop1 {
+  float: left;
+  width: 100px;
+  height: 70px;
+  margin-left: 10px;
+  padding: 10px;
+  border: solid black;
+  position: relative;
+  left: 26%;
+  top: 35px;
+}
+
+
+#drop2 {
+  float: left;
+  width: 100px;
+  height: 70px;
+  margin-left: 10px;
+  padding: 10px;
+  border: solid black;
+  position: relative;
+  left: 25.5%;
+  bottom: 50px;
+}
+
+
+#drop3 {
+  float: left;
+  width: 100px;
+  height: 70px;
+  margin-left: 10px;
+  padding: 10px;
+  border: solid black;
+  position: relative;
+  left: 25%;
+}
+
+
+#drag1, #drag2, #drag3 {
+  border: solid black;
+  border-radius: 20px;
+  background-color: white;
+}
+
+
+
+
+
+
+
+
+#question2 {
+	margin-left: 10px;
+	margin-right: 10px;
+	background-color: #ECEFF1;
+	padding: 10px 10px 10px 10px;
+	width: 975px;
+	border-radius: 20px;
+	float: left;
+}
+
+
+#buttonQ2 {
+	background: green;
+	border: black;
+	border-radius: 5px;
+	padding: 10px;
+	color: white;
+	font-size: 16px;
+	transition-duration: 0.25s;
+	margin-top: 15px;
+}
+
+
+#buttonQ2:hover {
+	background: white;
+	border: 1px solid green;
+	color: black;
+	cursor: pointer;
+}
+
+
+#after_submitQ2 {
+	visibility: hidden;
+	padding: 10px 10px 10px 10px;
+	width: 425px;
+	heigth: 900px;
+	border-radius: 20px;
+	float: left;
+	margin-left: 20px;
+	font-size: 20px;
+}
+
+
+#answerQ2_picture, #answerQ2_picture2, #answerQ2_picture3, #answerQ2_picture4 {
+	width: 375px;
+	heigth: 300px;
+	float: left;
+	border-radius: 20px;
+}
+
+
+#drop4, #drop5, #drop6, #drop7, #drop8, #drop9, #drop10 {
+  float: left;
+  width: 500px;
+  height: 50px;
+  margin-left: 10px;
+  padding: 10px;
+  border: solid black;
+  position: relative;
+  float: left;
+}
+
+
+#drag4, #drag5, #drag6, #drag7, #drag8, #drag9, #drag10 {
+  border: solid black;
+  border-radius: 20px;
+  background-color: white;
+}
+
+
+
+
+
+
+
+
+#question3 {
+	margin-left: 10px;
+	margin-right: 10px;
+	background: #ECEFF1;
+	padding: 10px 10px 10px 10px;
+	width: 975px;
+	border-radius: 20px;
+	float: left;
+}
+
+
+#buttonQ3 {
+	background: green;
+	border: black;
+	border-radius: 5px;
+	padding: 10px;
+	color: white;
+	font-size: 16px;
+	transition-duration: 0.25s;
+	margin-top: 15px;
+}
+
+
+#buttonQ3:hover {
+	background: white;
+	border: 1px solid green;
+	color: black;
+	cursor: pointer;
+}
+
+
+#after_submitQ3 {
+	visibility: hidden;
+	padding: 10px 10px 10px 10px;
+	width: 425px;
+	heigth: 900px;
+	border-radius: 20px;
+	float: left;
+	margin-left: 20px;
+	font-size: 20px;
+}
+
+
+
+
+
+
+
+
+#question4 {
+	margin-left: 10px;
+	margin-right: 10px;
+	background: #ECEFF1;
+	padding: 10px 10px 10px 10px;
+	width: 975px;
+	border-radius: 20px;
+	float: left;
+}
+
+
+#buttonQ4 {
+	background: green;
+	border: black;
+	border-radius: 5px;
+	padding: 10px;
+	color: white;
+	font-size: 16px;
+	transition-duration: 0.25s;
+	margin-top: 15px;
+}
+
+
+#buttonQ4:hover {
+	background: white;
+	border: 1px solid green;
+	color: black;
+	cursor: pointer;
+}
+
+
+#after_submitQ4 {
+	visibility: hidden;
+	padding: 10px 10px 10px 10px;
+	width: 425px;
+	heigth: 900px;
+	border-radius: 20px;
+	float: left;
+	margin-left: 20px;
+	font-size: 20px;
+}
+
+
+#answerQ4_picture {
+	width: 375px;
+	heigth: 300px;
+	float: left;
+	border-radius: 20px;
+}
+
+
+
+
+

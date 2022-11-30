@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html>
+
+
+
+
+
+<head>
+
+
+<title>Aphasias</title>
+<link href = "Aphasias_style.css" rel = "stylesheet">
+<link href = "https://fonts.googleapis.com/css?family=Open+Sans" rel = "stylesheet">
+<script src = "Aphasias_main.js"></script>
+
+
+</head>
+
+
+
+
+<body>
+
+
+<span style="font-size: 50px"><h1 style="text-align: center; color: #FFA500">Aphasias</h1></span>
+
+
+
+<br>
+<br>
+
+
+
+<form id="question1" name="question1">
+<p><b>Q1. Let's start simple! Drag and drop to match the three broad categories of language deficits to their (approximate) localization in the brain:</b>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+<div id="drop1" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+
+<div id="drop2" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+
+<div id="drop3" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+
+
+
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+<span id="drag1" data-div="drop2" draggable="true" ondragstart="drag(event)"><b>&emsp;Lesions here impair repetition&emsp;</b></span></div>
+<span id="drag2" data-div="drop3" draggable="true" ondragstart="drag(event)"><b>&emsp;Lesions here impair comprehension&emsp;</b></span></div>
+<span id="drag3" data-div="drop1" draggable="true" ondragstart="drag(event)"><b>&emsp;Lesions here impair fluency&emsp;</b></span></div>
+
+
+<br>
+<br>
+<input id="buttonQ1" type="button" value="Show me all the answers, please!" onclick="checkQ1();">
+</form>
+
+<div id="after_submitQ1">
+<p id="answerQ1"></p>
+<br>
+<figure>
+<img id="answerQ1_picture">
+</figure>
+<br clear="all" />
+<br>
+<p id = "afterQ1_picture"></p>
+<br clear="all" />
+</div>
+
+
+
+
+
+<br clear="all" />
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+
+
+<form id="question2" name="question2">
+<p><b>Q2. Sometimes Wernicke's aphasia and related conditions are termed "sensory aphasias" and Broca's aphasia and related conditions are termed "motor aphasias". Also, the term "transcortical" added to an aphasia means that the aphasia has preserved repetition. Using only that information, drag and drop to match the characteristics of the aphasias:</b>
+
+
+<br>
+<br>
+
+
+
+
+<div id="drop4" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+<p><b>&emsp;Preserved fluency<br>&emsp;Impaired comprehension<br>&emsp;Impaired repetition&emsp;</b></p>
+<br>
+<div id="drop5" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+<p><b>&emsp;Preserved fluency<br>&emsp;Impaired comprehension<br>&emsp;Preserved repetition&emsp;</b></p>
+<br>
+<div id="drop6" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+<p><b>&emsp;Impaired fluency<br>&emsp;Preserved comprehension<br>&emsp;Impaired repetition&emsp;</b></p>
+<br>
+<div id="drop7" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+<p><b>&emsp;Impaired fluency<br>&emsp;Preserved comprehension<br>&emsp;Preserved repetition&emsp;</b></p>
+<br>
+<div id="drop8" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+<p><b>&emsp;Preserved fluency<br>&emsp;Preserved comprehension<br>&emsp;Impaired repetition&emsp;</b></p>
+<br>
+<div id="drop9" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+<p><b>&emsp;Impaired fluency<br>&emsp;Impaired comprehension<br>&emsp;Impaired repetition&emsp;</b></p>
+<br>
+<div id="drop10" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+<p><b>&emsp;Impaired fluency<br>&emsp;Impaired comprehension<br>&emsp;Preserved repetition&emsp;</b></p>
+
+<br>
+<br>
+
+<span id="drag4" data-div="drop8" draggable="true" ondragstart="drag(event)"><b>&emsp;Conduction aphasia&emsp;</b></span></div>
+<span id="drag5" data-div="drop6" draggable="true" ondragstart="drag(event)"><b>&emsp;Broca's aphasia (motor aphasia)&emsp;</b></span></div>
+<span id="drag6" data-div="drop9" draggable="true" ondragstart="drag(event)"><b>&emsp;Global aphasia (motor + sensory aphasia)&emsp;</b></span></div>
+<br><br>
+<span id="drag7" data-div="drop5" draggable="true" ondragstart="drag(event)"><b>&emsp;Transcortical sensory aphasia (Wernicke's aphasia with preserved repetition)&emsp;</b></span></div>
+<br><br>
+<span id="drag8" data-div="drop7" draggable="true" ondragstart="drag(event)"><b>&emsp;Transcortical motor aphasia (Broca's aphasia wtih preserved repetition)&emsp;</b></span></div>
+<br><br>
+<span id="drag9" data-div="drop10" draggable="true" ondragstart="drag(event)"><b>&emsp;Mixed transcortical aphasia (global aphasia with preserved repetition)&emsp;</b></span></div>
+<span id="drag10" data-div="drop4" draggable="true" ondragstart="drag(event)"><b>&emsp;Wernicke's aphasia (sensory aphasia)&emsp;</b></span></div>
+
+
+<br>
+<br>
+<input id="buttonQ2" type="button" value="Show me all the answers, please!" onclick="checkQ2();">
+</form>
+
+<div id="after_submitQ2">
+<p id="answerQ2"></p>
+<br>
+<figure>
+<img id="answerQ2_picture">
+</figure>
+<br clear="all" />
+<br>
+<p id = "afterQ2_picture"></p>
+<br>
+<figure>
+<img id="answerQ2_picture2">
+</figure>
+<br clear="all" />
+<br>
+<p id = "afterQ2_picture2"></p>
+<br>
+<figure>
+<img id="answerQ2_picture3">
+</figure>
+<br clear="all" />
+<br>
+<p id = "afterQ2_picture3"></p>
+<br>
+<figure>
+<img id="answerQ2_picture4">
+</figure>
+<br clear="all" />
+</div>
+
+
+
+<br clear="all" />
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+
+
+<form id="question3" name="question3">
+<p><b>Q3. Now that we are at it, what is aphemia?</b></p>
+<br>
+<input type="radio" id="q3" name="question" value="a"> A form of global aphasia in which verbal language is preserved<br>
+<input type="radio" id="q3" name="question" value="b"> A form of sensory aphasia with inability to read written words<br>
+<input type="radio" id="q3" name="question" value="c"> A form of motor aphasia with poor verbal output, but preserved writing<br>
+<input type="radio" id="q3" name="question" value="d"> A form of conduction aphasia for written language only<br>
+<input type="radio" id="q3" name="question" value="e"> A form of deafness<br>
+<input id="buttonQ3" type="button" value="Done!" onclick="checkQ3();">
+</form>
+
+<div id="after_submitQ3">
+<p id="answerQ3"></p>
+<br clear="all" />
+<p id=afterQ3_picture"></p>
+</div>
+<br clear="all" />
+
+<br>
+<br>
+<br>
+<br>
+
+
+
+
+<form id="question4" name="question4">
+<p><b>Q4. Finally, what is alexia whithout agraphia?</b></p>
+<br>
+<input type="radio" id="q4" name="question" value="a"> A form of sensory aphasia with impaired reading with preserved writing<br>
+<input type="radio" id="q4" name="question" value="b"> A form of sensory aphasia with inability to understand spoken words<br>
+<input type="radio" id="q4" name="question" value="c"> A form of motor aphasia with impaired verbal output, but preserved writing<br>
+<input type="radio" id="q4" name="question" value="d"> A form of conduction aphasia for written language only<br>
+<input type="radio" id="q4" name="question" value="e"> A form of motor aphasia with impaired writing<br>
+<input id="buttonQ4" type="button" value="Done!" onclick="checkQ4();">
+</form>
+
+<div id="after_submitQ4">
+<p id="answerQ4"></p>
+<br>
+<figure>
+<img id="answerQ4_picture">
+</figure>
+<br clear="all" />
+<br>
+<p id = "afterQ4_picture"></p>
+<br>
+<br>
+</div>
+<br clear="all" />
+
+<br>
+<br>
+<br>
+<br>
+
+<br>
+<br>
+<br>
+<br>
+
+
+</body>
+
+</html>
