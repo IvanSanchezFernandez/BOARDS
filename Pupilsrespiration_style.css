@@ -1,0 +1,153 @@
+body {
+	font-family: 'Open Sans', sans-serif;
+}
+
+
+
+
+
+
+
+
+#question1 {
+	margin-left: 10px;
+	margin-right: 10px;
+	background-image: url("Pupilsrespiration_img/Brainstem.png");
+	background-position: center center;
+	background-color: #ECEFF1;
+	background-size: 100% 80%;
+	background-repeat: no-repeat;
+	padding: 10px 10px 10px 10px;
+	width: 975px;
+	border-radius: 20px;
+	float: left;
+}
+
+
+#buttonQ1 {
+	background: green;
+	border: black;
+	border-radius: 5px;
+	padding: 10px;
+	color: white;
+	font-size: 16px;
+	transition-duration: 0.25s;
+	margin-top: 15px;
+}
+
+
+#buttonQ1:hover {
+	background: white;
+	border: 1px solid green;
+	color: black;
+	cursor: pointer;
+}
+
+
+#after_submitQ1 {
+	visibility: hidden;
+	padding: 10px 10px 10px 10px;
+	width: 425px;
+	heigth: 900px;
+	border-radius: 20px;
+	float: left;
+	margin-left: 20px;
+	font-size: 20px;
+}
+
+
+#answerQ1_picture {
+	width: 375px;
+	heigth: 300px;
+	float: left;
+	border-radius: 20px;
+}
+
+
+#drop1 {
+  float: top;
+  width: 800px;
+  height: 65px;
+  margin-left: 10px;
+  padding: 10px;
+  border: solid black;
+  position: relative;
+  left: 10%;
+  bottom: 200px;
+}
+
+
+#drop2 {
+  float: left;
+  width: 800px;
+  height: 65px;
+  margin-left: 10px;
+  padding: 10px;
+  border: solid black;
+  position: relative;
+  left: 5%;
+  top: 40px;
+}
+
+
+#drop3 {
+  float: left;
+  width: 900px;
+  height: 65px;
+  margin-left: 10px;
+  padding: 10px;
+  border: solid black;
+  position: relative;
+  left: 0%;
+  top: 90px;
+}
+
+
+#drop4 {
+  float: left;
+  width: 900px;
+  height: 65px;
+  margin-left: 10px;
+  padding: 10px;
+  border: solid black;
+  position: relative;
+  left: 0%;
+  top: 230px;
+}
+
+
+#drop5 {
+  float: left;
+  width: 800px;
+  height: 65px;
+  margin-left: 10px;
+  padding: 10px;
+  border: solid black;
+  position: relative;
+  left: 10%;
+  top: 350px;
+}
+
+
+#drag1, #drag2, #drag3, #drag4, #drag5 {
+  width: 150px;
+  height: 60px;
+  border: solid black;
+  border-radius: 20px;
+  background-color: white;
+}
+
+
+#drag6, #drag7, #drag8, #drag9, #drag10, #drag11, #drag12, #drag13, #drag14 {
+  border: solid black;
+  border-radius: 20px;
+  background-color: white;
+}
+
+
+
+
+
+
+
+

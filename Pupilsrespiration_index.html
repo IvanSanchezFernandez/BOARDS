@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html>
+
+
+
+
+
+<head>
+
+
+<title>Pupils and respiratory patterns</title>
+<link href = "Pupilsrespiration_style.css" rel = "stylesheet">
+<link href = "https://fonts.googleapis.com/css?family=Open+Sans" rel = "stylesheet">
+<script src = "Pupilsrespiration_main.js"></script>
+
+
+</head>
+
+
+
+
+<body>
+
+
+<span style="font-size: 50px"><h1 style="text-align: center; color: #1705FA">Pupils and respiratory patterns in brain lesions</h1></span>
+
+
+
+<br>
+<br>
+
+
+
+<form id="question1" name="question1">
+<p><b>Q1. Drag and drop to match the respiratory patterns appearances, pupil characteristics, and respiratory patterns names to their most typical lesion localization level in the vertical axis: cerebral hemispheres, diencephalon, midbrain, pons, or medulla:</b>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+
+
+<div id="drop1" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+<br>
+<div id="drop2" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+<br>
+<div id="drop3" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+<br>
+<div id="drop4" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+<br>
+<div id="drop5" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+
+
+
+
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+
+
+<img id="drag1" data-div="drop4" src="Pupilsrespiration_img/Cluster.png" width="200px" height="60px" draggable="true" ondragstart="drag(event)">
+&emsp; &emsp;
+<img id="drag2" data-div="drop3" src="Pupilsrespiration_img/Hyperventilation.png" width="200px" height="60px" draggable="true" ondragstart="drag(event)">
+<br><br>
+<img id="drag3" data-div="drop1" src="Pupilsrespiration_img/CheyneStokes.png" width="200px" height="60px" draggable="true" ondragstart="drag(event)">
+&emsp; &emsp;
+<img id="drag4" data-div="drop4" src="Pupilsrespiration_img/Apneustic.png" width="200px" height="60px" draggable="true" ondragstart="drag(event)">
+&emsp; &emsp;
+<img id="drag5" data-div="drop5" src="Pupilsrespiration_img/Ataxic.png" width="200px" height="60px" draggable="true" ondragstart="drag(event)">
+<br>
+<br>
+<span id="drag6" data-div="drop3" draggable="true" ondragstart="drag(event)"><b>&emsp;Midsize nonreactive pupils&emsp;</b></span></div>
+<span id="drag7" data-div="drop2" draggable="true" ondragstart="drag(event)"><b>&emsp;Small reactive pupils&emsp;</b></span></div>
+<span id="drag8" data-div="drop4" draggable="true" ondragstart="drag(event)"><b>&emsp;Pinpoint reactive pupils&emsp;</b></span></div>
+<span id="drag9" data-div="drop3" draggable="true" ondragstart="drag(event)"><b>&emsp;Large nonreactive pupils&emsp;</b></span></div>
+<br>
+<br>
+<span id="drag10" data-div="drop1" draggable="true" ondragstart="drag(event)"><b>&emsp;Cheyne-Stokes breathing&emsp;</b></span></div>
+<span id="drag11" data-div="drop4" draggable="true" ondragstart="drag(event)"><b>&emsp;Cluster breathing&emsp;</b></span></div>
+<span id="drag12" data-div="drop3" draggable="true" ondragstart="drag(event)"><b>&emsp;Sustained hyperventilation&emsp;</b></span></div>
+<br>
+<br>
+<span id="drag13" data-div="drop5" draggable="true" ondragstart="drag(event)"><b>&emsp;Ataxic breathing&emsp;</b></span></div>
+<span id="drag14" data-div="drop4" draggable="true" ondragstart="drag(event)"><b>&emsp;Apneustic breathing&emsp;</b></span></div>
+
+
+<br>
+<br>
+<input id="buttonQ1" type="button" value="Show me all the answers, please!" onclick="checkQ1();">
+</form>
+
+<div id="after_submitQ1">
+<p id="answerQ1"></p>
+<br clear="all" />
+</div>
+
+
+
+
+
+<br clear="all" />
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+
+
+
+
+</body>
+
+</html>
