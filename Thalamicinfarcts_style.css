@@ -1,0 +1,174 @@
+body {
+	font-family: 'Open Sans', sans-serif;
+}
+
+
+
+
+
+
+
+
+#question1 {
+	margin-left: 10px;
+	margin-right: 10px;
+	background-image: url("Thalamicinfarcts_img/Thalamus.png");
+	background-position: center center;
+	background-color: #ECEFF1;
+	background-size: 100% 50%;
+	background-repeat: no-repeat;
+	padding: 10px 10px 10px 10px;
+	width: 975px;
+	border-radius: 20px;
+	float: left;
+}
+
+
+#buttonQ1 {
+	background: green;
+	border: black;
+	border-radius: 5px;
+	padding: 10px;
+	color: white;
+	font-size: 16px;
+	transition-duration: 0.25s;
+	margin-top: 15px;
+}
+
+
+#buttonQ1:hover {
+	background: white;
+	border: 1px solid green;
+	color: black;
+	cursor: pointer;
+}
+
+
+#after_submitQ1 {
+	visibility: hidden;
+	padding: 10px 10px 10px 10px;
+	width: 425px;
+	heigth: 900px;
+	border-radius: 20px;
+	float: left;
+	margin-left: 20px;
+	font-size: 20px;
+}
+
+
+#drop1 {
+  float: left;
+  width: 200px;
+  height: 200px;
+  margin-left: 10px;
+  padding: 10px;
+  border: solid black;
+  position: relative;
+  left: 0%;
+  top: 30px;
+}
+
+
+#drop2 {
+  float: left;
+  width: 200px;
+  height: 200px;
+  margin-left: 10px;
+  padding: 10px;
+  border: solid black;
+  position: relative;
+  left: 45%;
+  top: 5px;
+}
+
+
+#drop3 {
+  float: left;
+  width: 200px;
+  height: 200px;
+  margin-left: 10px;
+  padding: 10px;
+  border: solid black;
+  position: relative;
+  right: 45%;
+  top: 450px;
+}
+
+
+#drop4 {
+  float: left;
+  width: 200px;
+  height: 200px;
+  margin-left: 10px;
+  padding: 10px;
+  border: solid black;
+  position: relative;
+  right: 0%;
+  top: 400px;
+}
+
+
+#drag1, #drag2, #drag3, #drag4, #drag5, #drag6, #drag7, #drag8, #drag9 {
+  border: solid black;
+  border-radius: 20px;
+  background-color: white;
+}
+
+
+
+
+
+
+
+
+#question2 {
+	margin-left: 10px;
+	margin-right: 10px;
+	background: #ECEFF1;
+	padding: 10px 10px 10px 10px;
+	width: 975px;
+	border-radius: 20px;
+	float: left;
+}
+
+
+#buttonQ2 {
+	background: green;
+	border: black;
+	border-radius: 5px;
+	padding: 10px;
+	color: white;
+	font-size: 16px;
+	transition-duration: 0.25s;
+	margin-top: 15px;
+}
+
+
+#buttonQ2:hover {
+	background: white;
+	border: 1px solid green;
+	color: black;
+	cursor: pointer;
+}
+
+
+#after_submitQ2 {
+	visibility: hidden;
+	padding: 10px 10px 10px 10px;
+	width: 425px;
+	heigth: 900px;
+	border-radius: 20px;
+	float: left;
+	margin-left: 20px;
+	font-size: 20px;
+}
+
+
+
+
+
+
+
+
+
+
