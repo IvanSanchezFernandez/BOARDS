@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+
+
+
+
+
+<head>
+
+
+<title>Anticoagulation</title>
+<link href = "Anticoagulation_style.css" rel = "stylesheet">
+<link href = "https://fonts.googleapis.com/css?family=Open+Sans" rel = "stylesheet">
+<script src = "Anticoagulation_main.js"></script>
+
+
+</head>
+
+
+
+
+<body>
+
+
+<span style="font-size: 50px"><h1 style="text-align: center; color: #B02746">Anticoagulation</h1></span>
+
+
+
+<br>
+<br>
+
+
+
+<form id="question1" name="question1">
+<p><b>Q1. Drag and drop to match the anticoagulant with its most typical characteristics:</b>
+<br>
+<br>
+<br>
+<br>
+<div id="drop1" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+<p>&emsp;<b>Warfarin</b></p>
+<br>
+<br>
+<br>
+<br>
+<br>
+<div id="drop2" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+<p>&emsp;<b>Rivaroxaban</b></p>
+<br>
+<br>
+<br>
+<br>
+<div id="drop3" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+<p>&emsp;<b>Dabigatran</b></p>
+<br>
+<br>
+<br>
+<br>
+<div id="drop4" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+<p>&emsp;<b>Apixaban</b></p>
+<br>
+<br>
+<br>
+<br>
+<div id="drop5" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+<p>&emsp;<b>Edoxaban</b></p>
+
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+
+<span id="drag1" data-div='["drop2", "drop4", "drop5"]' draggable="true" ondragstart="drag(event)"><b>&emsp;Factor Xa inhibitor (3 possible answers)&emsp;</b></span></div>
+<span id="drag2" data-div='["drop2", "drop3", "drop4", "drop5"]' draggable="true" ondragstart="drag(event)"><b>&emsp;Renal dose adjustment needed (4 possible answers)&emsp;</b></span></div>
+<br><br>
+<span id="drag3" data-div="drop3" draggable="true" ondragstart="drag(event)"><b>&emsp;Direct thrombin inhibitor&emsp;</b></span></div>
+<span id="drag4" data-div='["drop2", "drop3", "drop4", "drop5"]' draggable="true" ondragstart="drag(event)"><b>&emsp;Renal dose adjustment needed (4 possible answers)&emsp;</b></span></div>
+<span id="drag5" data-div="drop1" draggable="true" ondragstart="drag(event)"><b>&emsp;Highest risk for intracranial bleeding&emsp;</b></span></div>
+<br><br>
+<span id="drag6" data-div='["drop2", "drop4"]' draggable="true" ondragstart="drag(event)"><b>&emsp;Reversal with andexanet alpha (2 possible answers)&emsp;</b></span></div>
+<span id="drag7" data-div="drop1" draggable="true" ondragstart="drag(event)"><b>&emsp;Vitamin K antagonist&emsp;</b></span></div>
+<br><br>
+<span id="drag8" data-div='["drop2", "drop3", "drop4", "drop5"]' draggable="true" ondragstart="drag(event)"><b>&emsp;Renal dose adjustment needed (4 possible answers)&emsp;</b></span></div>
+<span id="drag9" data-div="drop1" draggable="true" ondragstart="drag(event)"><b>&emsp;Need for frequent monitoring&emsp;</b></span></div>
+<br><br>
+<span id="drag10" data-div='["drop2", "drop3", "drop4", "drop5"]' draggable="true" ondragstart="drag(event)"><b>&emsp;Renal dose adjustment needed (4 possible answers)&emsp;</b></span></div>
+<span id="drag11" data-div='["drop2", "drop4"]' draggable="true" ondragstart="drag(event)"><b>&emsp;Reversal with andexanet alpha (2 possible answers)&emsp;</b></span></div>
+<br><br>
+<span id="drag12" data-div='["drop2", "drop4", "drop5"]' draggable="true" ondragstart="drag(event)"><b>&emsp;Factor Xa inhibitor (3 possible answers)&emsp;</b></span></div>
+<span id="drag13" data-div="drop1" draggable="true" ondragstart="drag(event)"><b>&emsp;Onset of action more than 24 hours&emsp;</b></span></div>
+<span id="drag14" data-div='["drop2", "drop4", "drop5"]' draggable="true" ondragstart="drag(event)"><b>&emsp;Factor Xa inhibitor (3 possible answers)&emsp;</b></span></div>
+<br><br>
+<span id="drag15" data-div="drop3" draggable="true" ondragstart="drag(event)"><b>&emsp;Reversal with idarucizumab&emsp;</b></span></div>
+<span id="drag16" data-div="drop1" draggable="true" ondragstart="drag(event)"><b>&emsp;Very narrow therapeuthic range&emsp;</b></span></div>
+<span id="drag17" data-div="drop1" draggable="true" ondragstart="drag(event)"><b>&emsp;Multiple drug interactions&emsp;</b></span></div>
+<br><br>
+<span id="drag18" data-div="drop1" draggable="true" ondragstart="drag(event)"><b>&emsp;Reversal with prothrombin complex concentrate, fresh frozen plasma, and vitamin K&emsp;</b></span></div>
+
+<br>
+<br>
+<br>
+<span style="font-size: 8px"><h1 style="text-align: center; color: #AC0F94">If the page is too large to see all drop areas, drag the element up or down to scroll through the webpage or <a target='_blank' rel='noopener noreferrer' href='https://support.google.com/chrome/answer/96810?hl=en&co=GENIE.Platform%3DDesktop&oco=1'>resize the page</a></h1></span>
+<br>
+<br>
+
+<input id="buttonQ1" type="button" value="Show me all the answers, please!" onclick="checkQ1();">
+</form>
+
+<div id="after_submitQ1">
+<p id="answerQ1"></p>
+</div>
+<br clear="all" />
+
+
+
+
+
+
+<br>
+<br>
+<br>
+<br>
+
+
+</body>
+
+</html>
