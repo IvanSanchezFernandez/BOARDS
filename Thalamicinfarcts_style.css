@@ -15,7 +15,7 @@ body {
 	background-image: url("Thalamicinfarcts_img/Thalamus.png");
 	background-position: center center;
 	background-color: #ECEFF1;
-	background-size: 100% 50%;
+	background-size: 100% 45%;
 	background-repeat: no-repeat;
 	padding: 10px 10px 10px 10px;
 	width: 975px;
@@ -90,7 +90,7 @@ body {
   padding: 10px;
   border: solid black;
   position: relative;
-  right: 45%;
+  right: 46%;
   top: 450px;
 }
 
