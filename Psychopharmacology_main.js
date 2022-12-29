@@ -138,7 +138,7 @@ function checkQ6() {
 	if (document.question6.question.value == "a") {
 
 		document.getElementById("after_submitQ6").style.visibility = "visible";
-		document.getElementById("answerQ6").innerHTML = "Correct!!<br><br>All typical (first-generation) and atypical (second-generation and third-generation) antipsychotics have a black-box warning explaining that they increase mortality risk in elderly patients with dementia-related psychosis. This is why neuroleptics should be used with caution in elderly patients when they are psychotic in the context of their dementia.<br><br><a target='_blank' rel='noopener noreferrer' href='https://link.springer.com/book/10.1007/978-3-319-74604-3'>This book is a great reference</a>";
+		document.getElementById("answerQ6").innerHTML = "Correct!!<br><br>All typical (first-generation) and atypical (second-generation and third-generation) antipsychotics have a black-box warning explaining that they increase mortality risk in elderly patients with dementia-related psychosis. This is why neuroleptics should be used with caution in elderly patients when they are psychotic in the context of their dementia.<br><br><a target='_blank' rel='noopener noreferrer' href='https://link.springer.com/book/10.1007/978-3-319-74604-3'>This book is a great reference</a>.";
 		document.getElementById("after_submitQ6").style.background = "#A7FFEB";
 
 }	else {
@@ -149,6 +149,55 @@ function checkQ6() {
 }
 
 }
+
+
+
+
+
+
+
+
+function checkQ7() {
+
+	if (document.question7.question.value == "d") {
+
+		document.getElementById("after_submitQ7").style.visibility = "visible";
+		document.getElementById("answerQ7").innerHTML = "Correct!!<br><br>Citalopram and escitalopram have few pharmacokinetic interactions. They are particularly good for patients with comorbidities or older patients, who typically have multiple other medications.<br><br>Prolongation of the QTc makes that these medications are not ideal for patients with a history of myocardial infarction, coronary artery disease, chronic heart failure, left ventricular hypertrophy, arrhythmia, or congenital long QTc syndrome.<br><br><a target='_blank' rel='noopener noreferrer' href='https://link.springer.com/book/10.1007/978-3-319-74604-3'>This book is a great reference</a>";
+		document.getElementById("after_submitQ7").style.background = "#A7FFEB";
+
+}	else {
+		document.getElementById("after_submitQ7").style.visibility = "visible";
+		document.getElementById("answerQ7").innerHTML = "No! <br><br>Keep trying!";
+		document.getElementById("after_submitQ7").style.background = "red";
+
+}
+
+}
+
+
+
+
+
+
+
+
+function checkQ8() {
+
+	if (document.question8.question.value == "e") {
+
+		document.getElementById("after_submitQ8").style.visibility = "visible";
+		document.getElementById("answerQ8").innerHTML = "Right!!<br><br>Duloxetine is a serotonin and norepinephrine reuptake inhibitor (SNRI) which is often used for neuropathic or muskuloskeletal pain.<br><br>This medication is not ideal for patients with a history of heavy alcohol use or with hepatic insufficiency because it can cause hepatotoxicity.<br><br><a target='_blank' rel='noopener noreferrer' href='https://link.springer.com/book/10.1007/978-3-319-74604-3'>This book is a great reference</a>";
+		document.getElementById("after_submitQ8").style.background = "#A7FFEB";
+
+}	else {
+		document.getElementById("after_submitQ8").style.visibility = "visible";
+		document.getElementById("answerQ8").innerHTML = "No! <br><br>Keep trying!";
+		document.getElementById("after_submitQ8").style.background = "red";
+
+}
+
+}
+
 
 
 
