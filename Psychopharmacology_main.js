@@ -204,3 +204,25 @@ function checkQ8() {
 
 
 
+
+function checkQ9() {
+
+	if (document.question8.question.value == "e") {
+
+		document.getElementById("after_submitQ9").style.visibility = "visible";
+		document.getElementById("answerQ9").innerHTML = "Right!!<br><br>Pimavanserin is a selective 5HT2A receptor inverse agonist which was FDA-approved for the treatment of delusions and hallucinations in Parkinson's disease.<br><br><a target='_blank' rel='noopener noreferrer' href='https://link.springer.com/book/10.1007/978-3-319-74604-3'>This book is a great reference</a>";
+		document.getElementById("after_submitQ9").style.background = "#A7FFEB";
+
+}	else {
+		document.getElementById("after_submitQ9").style.visibility = "visible";
+		document.getElementById("answerQ9").innerHTML = "Not correct!<br><br>Keep trying!";
+		document.getElementById("after_submitQ9").style.background = "red";
+
+}
+
+}
+
+
+
+
+
