@@ -162,7 +162,7 @@ function checkQ7() {
 	if (document.question7.question.value == "d") {
 
 		document.getElementById("after_submitQ7").style.visibility = "visible";
-		document.getElementById("answerQ7").innerHTML = "Correct!!<br><br>Citalopram and escitalopram have few pharmacokinetic interactions. They are particularly good for patients with comorbidities or older patients, who typically have multiple other medications.<br><br>Prolongation of the QTc makes that these medications are not ideal for patients with a history of myocardial infarction, coronary artery disease, chronic heart failure, left ventricular hypertrophy, arrhythmia, or congenital long QTc syndrome.<br><br><a target='_blank' rel='noopener noreferrer' href='https://link.springer.com/book/10.1007/978-3-319-74604-3'>This book is a great reference</a>";
+		document.getElementById("answerQ7").innerHTML = "Correct!!<br><br>Citalopram and escitalopram have few pharmacokinetic interactions. They are particularly good for patients with comorbidities or older patients, who typically have multiple other medications.<br><br>Prolongation of the QTc makes that these medications are not ideal for patients with a history of myocardial infarction, coronary artery disease, chronic heart failure, left ventricular hypertrophy, arrhythmia, or congenital long QTc syndrome.<br><br><a target='_blank' rel='noopener noreferrer' href='https://link.springer.com/book/10.1007/978-3-319-74604-3'>This book is a great reference</a>.";
 		document.getElementById("after_submitQ7").style.background = "#A7FFEB";
 
 }	else {
@@ -186,7 +186,7 @@ function checkQ8() {
 	if (document.question8.question.value == "e") {
 
 		document.getElementById("after_submitQ8").style.visibility = "visible";
-		document.getElementById("answerQ8").innerHTML = "Right!!<br><br>Duloxetine is a serotonin and norepinephrine reuptake inhibitor (SNRI) which is often used for neuropathic or muskuloskeletal pain.<br><br>This medication is not ideal for patients with a history of heavy alcohol use or with hepatic insufficiency because it can cause hepatotoxicity.<br><br><a target='_blank' rel='noopener noreferrer' href='https://link.springer.com/book/10.1007/978-3-319-74604-3'>This book is a great reference</a>";
+		document.getElementById("answerQ8").innerHTML = "Right!!<br><br>Duloxetine is a serotonin and norepinephrine reuptake inhibitor (SNRI) which is often used for neuropathic or muskuloskeletal pain.<br><br>This medication is not ideal for patients with a history of heavy alcohol use or with hepatic insufficiency because it can cause hepatotoxicity.<br><br><a target='_blank' rel='noopener noreferrer' href='https://link.springer.com/book/10.1007/978-3-319-74604-3'>This book is a great reference</a>.";
 		document.getElementById("after_submitQ8").style.background = "#A7FFEB";
 
 }	else {
@@ -207,10 +207,10 @@ function checkQ8() {
 
 function checkQ9() {
 
-	if (document.question8.question.value == "e") {
+	if (document.question9.question.value == "e") {
 
 		document.getElementById("after_submitQ9").style.visibility = "visible";
-		document.getElementById("answerQ9").innerHTML = "Right!!<br><br>Pimavanserin is a selective 5HT2A receptor inverse agonist which was FDA-approved for the treatment of delusions and hallucinations in Parkinson's disease.<br><br><a target='_blank' rel='noopener noreferrer' href='https://link.springer.com/book/10.1007/978-3-319-74604-3'>This book is a great reference</a>";
+		document.getElementById("answerQ9").innerHTML = "Right!!<br><br>Pimavanserin is a selective 5HT2A receptor inverse agonist which was FDA-approved for the treatment of delusions and hallucinations in Parkinson's disease.<br><br><a target='_blank' rel='noopener noreferrer' href='https://link.springer.com/book/10.1007/978-3-319-74604-3'>This book is a great reference</a>.";
 		document.getElementById("after_submitQ9").style.background = "#A7FFEB";
 
 }	else {
@@ -224,5 +224,26 @@ function checkQ9() {
 
 
 
+
+
+
+
+
+function checkQ10() {
+
+	if (document.question10.question.value == "b") {
+
+		document.getElementById("after_submitQ10").style.visibility = "visible";
+		document.getElementById("answerQ10").innerHTML = "Yes!!<br><br>Although different antidepressants can be used for postpartum depression, brexanolone was specifically approved by the FDA for this condition.<br><br><a target='_blank' rel='noopener noreferrer' href='https://pubmed.ncbi.nlm.nih.gov/31476884/'>Relevant article on brexanolone</a>.";
+		document.getElementById("after_submitQ10").style.background = "#A7FFEB";
+
+}	else {
+		document.getElementById("after_submitQ10").style.visibility = "visible";
+		document.getElementById("answerQ10").innerHTML = "No!<br><br>Keep trying!";
+		document.getElementById("after_submitQ10").style.background = "red";
+
+}
+
+}
 
 
