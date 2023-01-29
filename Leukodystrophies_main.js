@@ -105,7 +105,7 @@ function checkQ4() {
 
 	if (document.getElementById("q4a").checked == true && document.getElementById("q4b").checked == false && document.getElementById("q4c").checked == false && document.getElementById("q4d").checked == false && document.getElementById("q4e").checked == true && document.getElementById("q4f").checked == false && document.getElementById("q4g").checked == false && document.getElementById("q4h").checked == false && document.getElementById("q4i").checked == false) {
 		document.getElementById("after_submitQ4").style.visibility = "visible";
-		document.getElementById("answerQ4").innerHTML = "Correct! <br><br> Pelizaeus-Merzbacher disease and X-linked adrenoleukodystrophy are X-linked recessive conditions. The rest of the leukodystrophies are autosomal recessive conditions.";
+		document.getElementById("answerQ4").innerHTML = "Correct! <br><br> Pelizaeus-Merzbacher disease and X-linked adrenoleukodystrophy are X-linked recessive conditions. Alexander disease is autosomal dominant (although most cases appear de novo). The rest of the leukodystrophies are autosomal recessive conditions.";
 		document.getElementById("after_submitQ4").style.background = "#A7FFEB";
 
 	} else {
